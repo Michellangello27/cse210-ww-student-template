@@ -8,9 +8,9 @@ class Program
         string userInput = Console.ReadLine();
         int grade_percent = int.Parse(userInput);
 
-        string letter = "";  //variable for the letter
-        string message = ""; //variable for the message
-        string sign = "";    // variable for the sign
+        string letter = "";   //variable for the letter
+        string message = "";  //variable for the message
+        string sign = "";     // variable for the sign
         int last_digit= grade_percent % 10; //last digit calculation
 
         //for Stretch Challenge
